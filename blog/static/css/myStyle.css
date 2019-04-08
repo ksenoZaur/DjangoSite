@@ -1,0 +1,35 @@
+.myColorElem{
+    background-color : rgba(237, 237, 237, 0.82);
+}
+.myTextColorSpecification{
+    color : rgba(96, 96, 96, 0.82);
+}
+.myTextFont{
+    font-family: "PTSans","Helvetica","Arial",sans-serif;
+}
+.myTextSizeSpecification{
+    font-size: 14px;
+}
+A.myHref{
+    text-decoration: none;
+    color : black;
+}
+A.myHref:hover{
+    text-decoration: none;
+    color : #1d6e66;
+}
+@media (min-width: 1200px) {
+   .mySizePrice {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1200px) {
+    .mySizePrice {
+        font-size: 25px;
+    }
+}
+
+.myOtstup{
+    .mt-3;
+    .mx-1;
+}
